@@ -17,7 +17,7 @@ In WinUI3 Preview 3 Desktop, we are unable to type in text into the TextBoxes in
 More detailed observations and debugging below in the "Additional Context" section.
 
 **Steps to reproduce the bug**
-1. Clone our [WinUI3 Preview3 Problems TextBox repository](https://github.com/eleanorleffler/WinUI3Preview3_Problems_TextBox).
+1. Clone the repository.
 2. Go to the TextBoxWinUI folder.
 2. Open the TextBoxWinUI solution.
 3. Build and run with Debug x64.
@@ -31,6 +31,8 @@ We expect text to appear within the textbox when typing. We expect to see the sa
 Build and run the TextBoxUWP solution inside the TextBoxUWP folder to see expected behavior.
 
 **Screenshots**
+
+![TextBoxInsideContentDialog](https://github.com/eleanorleffler/WinUI3Preview3_Problems_TextBox/blob/main/Screenshots/TextBoxInsideDialog.PNG)
 
 Screenshot#1 - TextBox inside ContentDialog
 
